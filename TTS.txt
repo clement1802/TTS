@@ -1,0 +1,10 @@
+TROUVE TON SCOOTER
+
+Trouve Ton Scooter est un site de mise en relation de particuliers et de professionnels, spécialisé dans la vente de scooters d'occasion.
+La Homepage met en avant une séléction de scooter et permet de trouver un scooter à acheter ou de vendre son scooter rapidement.
+
+Un onglet "Neuf" permet aux professionnels de vendre leurs scooters.
+Un onglet "Occasion" est dédié aux professionnels comme aux particuliers pour vendre des scooters.
+
+Enfin, une fois son scooter trouvé, l'utilisateur à accès à la page produit sur laquelle le scooter est présenté en détail.
+
