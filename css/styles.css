@@ -1,0 +1,487 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container {
+	background: #ccc;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Arial', sans-serif;
+}
+
+header {
+	width: 100%;
+	background: url('../img/header-bg.jpg');
+	height: 373px;
+}
+
+/* Box Trouve Ton Scooter*/
+
+.box-top {
+	width: 200px;
+	height: 130px;
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+}
+
+.box-top h1 {
+	font-family: 'Arial Black', sans-serif;
+	text-transform: uppercase;
+	font-size: 26px;
+	margin-top: 10px;
+}
+
+.box-top h2 {
+	color: #999;
+}
+
+.box-top hr {
+	display: block;
+	margin: 20px 0;
+	color: #999;
+}
+
+/* Menu */
+
+.menu {
+	width: 100%;
+	background: #333;
+	height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.menu a {
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.menu li {
+	padding: 0 30px 0 30px;
+	line-height: 50px;
+	display: inline;
+}
+
+/* Wrapper */
+
+.wrapper {
+	background: url('../img/bc-bg.jpg');
+	height: 450px;
+	padding-top: 30px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* 3 box du wrapper */
+
+.box-middle {
+	width: 427px;
+	float: left;
+	margin-left: 30px;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.box-middle h3 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Arial Black', sans-serif;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+/* Box scooter du jour */
+
+.scooter-du-jour {
+	height: 350px;
+	background: rgba(127, 75, 53, 0.8);
+	margin-left: 200px;
+}
+
+
+
+/* derniers-ajouts */
+
+.titre-ajout {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+	width: 340px;
+}
+
+.titre-prix-ajout {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 9.5px;
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+}
+
+.informations-scooter {
+	background: rgba(172, 196, 211, 0.85);
+	height: 50px;
+	width: 330px;
+	margin-top: 10px;
+	float: left;
+	padding: 5px;
+}
+
+.informations-scooter img {
+	max-width: 20px;
+	position: relative;
+	top: 5px;
+}
+
+.prix-scooter {
+	background: rgba(172, 196, 211, 0.85);
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 72px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.name-scooter {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+
+
+.cp-scooter {
+	font-size: 14px;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+
+
+
+/* Box trouver-son-scooter */
+
+.plus-scooter a {
+	position: relative;
+	top: 5px;
+	left: 2px;
+	font-size: 30px;
+	color: #ffff00;
+	font-weight: bold;
+	text-decoration: none;
+}
+.trouver-son-scooter {
+	height: 350px;
+	background: rgba(165, 169, 160, 0.8);
+}
+
+.trouver-son-scooter select {
+	border: 1px solid #000;
+	height: 30px;
+	width: 170px;
+	font-family: 'Arial Black', sans-serif;
+	color: #000;
+	font-size: 13px;
+	display: block;
+	margin-bottom: 10px;
+	text-indent: 1px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #f3f3f3 url('../img/tr.png') no-repeat right center;
+}
+
+.recherche input[type="text"] {
+	width: 330px;
+	border: 1px solid #000;
+	height: 30px;
+	font-family: 'Arial Black', sans-serif;
+	color: #000;
+	font-size: 14px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+
+
+}
+
+
+
+/* Box vendre-son-scooter */
+
+.vendre-son-scooter {
+	height: 350px;
+	background: rgba(127, 75, 53, 0.8);
+}
+
+.vendre-son-scooter select {
+	border: 1px solid #000;
+	height: 30px;
+	width: 170px;
+	font-family: 'Arial Black', sans-serif;
+	color: #000;
+	font-size: 13px;
+	display: block;
+	margin-bottom: 10px;
+	text-indent: 1px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #f3f3f3 url('../img/tr.png') no-repeat right center;
+
+}
+
+.recherche button {
+	height: 40px;
+	border: 0;
+	border-radius: 50%;
+	background: #333;
+	color: #fff;
+	margin-left: 10px;
+	font-family: 'Arial Black', sans-serif;
+	font-size: 14px;
+}
+
+.recherche input[type="checkbox"] {
+	border: 1px solid #000;
+	width: 20px;
+	height: 20px;
+}
+
+.recherche label {
+	display: inline-block;
+	margin: 0 5px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.recherche a.criteres {
+	text-decoration: underline;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 30px;
+}
+
+.recherche hr {
+	display: block;
+	margin: 20px 0;
+	height: 1px;
+    border: 0;
+    border-top: 1px solid #333;
+
+}
+
+    /* Box Modèles dispo */
+
+.scooter-yamaha {
+	height: 360px;
+	background: rgba(127, 75, 53, 0.8);
+	margin-left: 380px;
+	
+
+}
+
+
+
+/*  Blocs Modèles  dispo */
+
+.titre-ajout {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+	width: 340px;
+}
+
+.titre-prix-ajout {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 9.5px;
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+}
+
+.informations-model {
+	background: rgba(172, 196, 211, 0.85);
+	height: 50px;
+	width: 330px;
+	margin-top: 10px;
+	float: left;
+	padding: 5px;
+}
+
+.informations-model img {
+	max-width: 20px;
+	position: relative;
+	top: 5px;
+}
+
+.prix-model {
+	background: rgba(172, 196, 211, 0.85);
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 72px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.name-model {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+
+
+.cp-model {
+	font-size: 14px;
+	margin-right: 10px;
+	margin-left: 5px;
+
+}
+
+
+/* Box AEROX */
+
+.scooter-aerox {
+	height: 360px;
+	background: rgba(127, 75, 53, 0.8);
+	margin-left: 230px;
+}
+
+
+
+/* AEROX */
+
+.titre-ajout {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+	width: 340px;
+}
+
+
+.informations-aerox {
+	background: rgba(172, 196, 211, 0.85);
+	height:170px;
+	width: 330px;
+	margin-top: 10px;
+	float: left;
+	padding: 5px;
+
+
+}
+
+
+
+.name-aerox {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+
+/* Contact vendeur */
+
+.contact {
+	position: relative;
+} 
+
+.contact input[type="text"] {
+	width: 330px;
+	border: 1px solid #000;
+	height: 70px;
+	font-family: 'Arial Black', sans-serif;
+	color: #000;
+	font-size: 14px;
+	margin-top: 30px; 
+
+}
+
+.contact button {
+	height: 40px;
+	border: 0;
+	border-radius: 40%;
+	color: #fff;
+	font-family: 'Arial Black', sans-serif;
+	font-size: 14px;
+	float : right;
+	position: absolute;
+    right: -100px;
+    top: 50px;
+
+}
+
+.img-scooter {
+	margin-left: 10%;
+}
+
+
+#footer{
+
+height:50px;
+background-color: #333;
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="logo.png"> 
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	<meta charset="UTF-8">
+	<title>Trouve Ton Scooter</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="container">
+
+		<header>
+			<div class="box-top">
+				<h1>Trouve Ton Scooter</h1>
+				<hr />
+				<h2>Deux roues valent mieux qu'une, tu l'auras.</h2>
+			<!-- /.box-top -->
+			</div>
+		<!-- /header -->
+		</header>
+
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="#">Neuf</a></li>
+				<li><a href="#">Occasion</a></li>
+				<li><a href="#">Mon compte</a></li>
+			</ul>
+		<!-- /.menu -->
+		</div>
+
+		<div class="wrapper">
+
+			<div class="scooter-du-jour box-middle">
+				<h3>Les scooters du jour</h3>
+				
+				<br />
+				
+		
+				<hr />
+
+				<div class="ajout">
+					<span class="titre-ajout">Derniers ajouts</span>
+
+					<div class="informations-scooter">
+							<div class="name-scooter">
+								T-Max
+							<!-- /.name-scooter -->
+							</div>
+							<span class="km-scooter">
+								12 892km
+							<!-- /.km-scooter -->
+							</span>
+							<img src="img/Localisation.png" alt="Localisation" />
+							<span class="cp-scooter">
+							<!-- /.cp-scooter -->
+								75012
+							</span>
+					<!-- /.informations-scooter -->
+					</div>
+
+					<span class="titre-prix-ajout">Prix</span>
+
+					<div class="prix-scooter">
+						4500€
+					<!-- /.nb-scooter -->
+					</div>
+
+
+
+
+
+					<div class="informations-scooter">
+						<div class="picture-scooter">
+							<div class="name-scooter">
+								Vespa
+							<!-- /.name-scooter -->
+							</div>
+							<span class="km-scooter">
+								5800km
+							<!-- /.km-scooter -->
+							</span>
+							<img src="img/Localisation.png" alt="Localisation" />
+							<span class="cp-scooter">
+							<!-- /.cp-scooter -->
+								75016
+							</span>
+						<!-- /.picture-scooter -->
+						</div>
+					<!-- /.informations-scooter -->
+					</div>
+
+					<div class="prix-scooter">
+						1800€
+					</div>
+<div class="informations-scooter">
+						<div class="picture-scooter">
+							<div class="name-scooter">
+								Mio
+							<!-- /.name-scooter -->
+							</div>
+							<span class="km-scooter">
+								3 800km
+							<!-- /.km-scooter -->
+							</span>
+							<img src="img/Localisation.png" alt="Localisation" />
+							<span class="cp-scooter">
+							<!-- /.cp-scooter -->
+								75014
+							</span>
+						<!-- /.picture-scooter -->
+						</div>
+					<!-- /.informations-scooter -->
+					</div>
+
+					<div class="prix-scooter">
+						800€
+					</div>
+
+
+
+				<!-- /.scooter -->
+				</div>
+
+
+			<!-- /.trouver-son-scooter-->
+			</div>
+
+			<div class="trouver-son-scooter box-middle">
+				<h3>Trouver son scooter</h3>
+				<!-- select marque -->
+				<select>
+				    <option disabled selected>Marque...</option>
+				    <option>Yamaha</option>
+				    <option>Honda</option>
+				    <option>Piaggio</option>
+				    <option>Sym</option>
+				</select>
+
+				<!-- select Cylindrée -->
+				<select>
+				    <option disabled selected>Cylindrée...</option>
+				    <option>50cc</option>
+				    <option>125cc</option>
+				    <option>+125cc</option>
+				    <option>+500cc</option>
+				</select>
+
+				<!-- select Année -->
+				<select>
+				    <option disabled selected>Année...</option>
+				    <option>2016</option>
+				    <option>2015</option>
+				    <option>2014</option>
+				    <option>2013</option>
+				</select>
+				
+				<!-- select km -->
+				<select>
+				    <option disabled selected>Kilométrage...</option>
+				    <option>de 0 à 1000</option>
+				    <option>de 1000 à 5000</option>
+				    <option>de 5000 à 10 000</option>
+				    <option>+ de 10 000</option>
+				</select>
+				
+				<!-- select budget -->
+				<select>
+				    <option disabled selected>Budget...</option>
+				    <option>De 0 à 500€</option>
+				    <option>De 500€ à 1000€</option>
+				    <option>De 1000€ à 1500€</option>
+				    <option>De 1500€ à 2000€</option>
+				    <option>De 2000€ à 3000€</option>
+				    <option>De 3000€ à 5000€</option>
+				    <option>Plus de 5000€</option>
+				</select>
+			<div class="recherche">	
+			<input type="text" placeholder="Rechercher un scooter..." />
+				<button type="submit">GO</button>
+				<br />
+				<input type="checkbox" id="Sans permis" value="sans permis"><label for="sans permis">Sans permis</label>
+				<input type="checkbox" id="paris" value="paris"><label for="paris">Paris intra-muros</label>
+				<a class="criteres" href="#">+ de critères</a>
+				<hr />
+			</div>	
+			</div>
+
+			<div class="vendre-son-scooter box-middle">
+				<h3>Vendre son scooter</h3>
+				<!-- select marque -->
+				<select>
+				    <option disabled selected>Marque...</option>
+				    <option>Yamaha</option>
+				    <option>Honda</option>
+				    <option>Piaggio</option>
+				    <option>Sym</option>
+				</select>
+
+				<!-- select Cylindrée -->
+				<select>
+				    <option disabled selected>Cylindrée...</option>
+				    <option>50cc</option>
+				    <option>125cc</option>
+				    <option>+125cc</option>
+				    <option>+500cc</option>
+				</select>
+
+				<!-- select Année -->
+				<select>
+				    <option disabled selected>Année...</option>
+				    <option>2016</option>
+				    <option>2015</option>
+				    <option>2014</option>
+				    <option>2013</option>
+				</select>
+				
+				<!-- select km -->
+				<select>
+				    <option disabled selected>Kilométrage...</option>
+				    <option>de 0 à 1000</option>
+				    <option>de 1000 à 5000</option>
+				    <option>de 5000 à 10 000</option>
+				    <option>+ de 10 000</option>
+				</select>
+				
+				<!-- Prix -->
+				<div class="recherche">	
+			<input type="text" placeholder="Rentrez le prix..." />
+				
+				</select>
+			<div class="recherche">	
+			<input type="text" placeholder="Rentrez votre e-mail..." />
+				<button type="submit">OK</button>
+				<br />
+				<input type="checkbox" id="Recevoir une copie" value="Recevoir une copie"><label for="Recevoir une copie">Recevoir une copie</label>
+				<a class="criteres" href="#">+ de critères</a>
+				<hr />
+			</div>	
+			</div>
+		<!-- /.wrapper -->
+		</div>
+
+	</div>
+	<!-- /#container -->
+
+	<div id="footer">
+
+Ceci est un footer !
+
+	</div> 
+
+</body>
+</html>
